@@ -1,5 +1,7 @@
 # apod-clojure
 
+![Build Status](https://travis-ci.org/eparker71/apod-clojure.svg?branch=master "Build Status")
+
 FIXME
 
 ## Prerequisites
