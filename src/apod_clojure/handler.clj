@@ -9,6 +9,7 @@
 
 (defroutes app-routes
   (GET "/" [] (views-controller/index))
+  (route/resources "/")
   (route/not-found "Not Found"))
 
 (def app

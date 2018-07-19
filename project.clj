@@ -6,7 +6,8 @@
                  [compojure "1.5.1"]
                  [ring/ring-defaults "0.2.1"]
                  [de.ubercode.clostache/clostache "1.3.1"]
-                 [enlive "1.1.6"]]
+                 [enlive "1.1.6"]
+                 [org.imsglobal/basiclti-util "1.1.2"]]
   :plugins [[lein-ring "0.9.7"]]
   :ring {:handler apod-clojure.handler/app}
   :profiles
