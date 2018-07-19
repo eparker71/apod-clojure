@@ -1,13 +1,3 @@
-;(ns apod-clojure.handler
-;  (:use compojure.core)
-;  (:require [compojure.core :refer :all]
-;            [clojure.string :as str]
-;            [compojure.route :as route]
-;            [net.cgrand.enlive-html :as html]
-;            [ring.middleware.defaults :refer [wrap-defaults site-defaults]
-;            [apod-clojure.controllers.views :as views-controller]]))
-;
-
 (ns apod-clojure.handler
   (:use compojure.core)
   (:require [compojure.handler :as handler]
